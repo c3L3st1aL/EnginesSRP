@@ -1,8 +1,8 @@
 {
     "pack": {
         "pack_format": 1,
-        "name": "Server Resourcepack",
-        "description": "Generated with https://github.com/OffsetMods538/Github-Resourcepack-Manager",
+        "name": "Engines Texturen und Models",
+        "description": "Texturen von ceL und der Engines Gang",
         "supported_formats": {
             "min_inclusive": 1,
             "max_inclusive": 99
