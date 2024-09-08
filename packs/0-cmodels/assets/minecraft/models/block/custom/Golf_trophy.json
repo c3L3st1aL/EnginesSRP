@@ -11,7 +11,7 @@
 		"6": "block/texture",
 		"7": "block/texture",
 		"8": "block/texture",
-		"particle": "block/texture"
+		"particle": "block/custom/texture"
 	},
 	"elements": [
 		{
