@@ -1,0 +1,44 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/paper"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 101
+      },
+      "model": "minecraft:item/clue_dagger"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 102
+      },
+      "model": "minecraft:item/clue_wrench"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 103
+      },
+      "model": "minecraft:item/clue_pipe"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 104
+      },
+      "model": "minecraft:item/clue_pistol"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 105
+      },
+      "model": "minecraft:item/clue_rope"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 106
+      },
+      "model": "minecraft:item/clue_candlestick"
+    }
+  ]
+}
