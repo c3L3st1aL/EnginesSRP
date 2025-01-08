@@ -1,0 +1,54 @@
+{
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "fallback": {
+            "type": "model",
+            "model": "minecraft:item/paper"
+        },
+        "entries": [
+            {
+                "threshold": 101,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:item/clue_dagger"
+                }
+            },
+            {
+                "threshold": 102,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:item/clue_wrench"
+                }
+            },
+            {
+                "threshold": 103,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:item/clue_pipe"
+                }
+            },
+            {
+                "threshold": 104,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:item/clue_pistol"
+                }
+            },
+            {
+                "threshold": 105,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:item/clue_rope"
+                }
+            },
+            {
+                "threshold": 106,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:item/clue_candlestick"
+                }
+            }
+        ]
+    }
+}
