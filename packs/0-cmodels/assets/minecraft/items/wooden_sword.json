@@ -1,0 +1,17 @@
+{
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "fallback": {
+            "type": "model",
+            "model": "minecraft:item/wooden_sword"
+        },
+        "entries": [
+            {
+                "threshold": 101,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:item/tennis_rack"
+                }
+            }
+    }
