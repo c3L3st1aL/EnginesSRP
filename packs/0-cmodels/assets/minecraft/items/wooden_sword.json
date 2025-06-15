@@ -8,7 +8,7 @@
         },
         "entries": [
             {
-                "threshold": 101,
+                "threshold": 99,
                 "model": {
                     "type": "model",
                     "model": "minecraft:item/tennis_rack"
