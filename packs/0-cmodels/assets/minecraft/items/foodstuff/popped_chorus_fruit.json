@@ -1,0 +1,30 @@
+{
+	"model": {
+		"type": "minecraft:condition",
+		"property": "minecraft:has_component",
+		"component": "minecraft:custom_name",
+		"on_true": {
+			"type": "minecraft:select",
+			"model": "minecraft:item/popped_chorus_fruit",
+			"property": "minecraft:component",
+			"component": "minecraft:custom_name",
+	  		"cases": [
+					{
+				"when": "Sconce",
+				"model": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/sconce/popped_chorus_fruit_sconce"
+			 			}
+					}
+		  		],
+			"fallback": {
+				"type": "minecraft:model",
+				"model": "minecraft:item/popped_chorus_fruit"
+					}
+				},
+		"on_false": {
+			"type": "minecraft:model",
+			"model": "minecraft:item/popped_chorus_fruit"
+		}
+	}
+}

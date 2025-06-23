@@ -1,0 +1,2198 @@
+{
+	"model": {
+		"type": "condition",
+		"property": "has_component",
+		"component": "custom_name",
+		"on_true": {
+			"type": "select",
+			"property": "component",
+			"component": "custom_name",
+			"cases": [
+				{
+					"when": [
+						"Royal Yellow Glazed Plate",
+						"Royal Glazed Yellow Plate",
+						"Yellow Glazed Royal Plate",
+						"Glazed Yellow Royal Plate"
+					],
+					"model": {
+						"type": "composite",
+						"models": [
+							{
+								"type": "model",
+								"model": "item/plated_food/yellow_glazed_plate"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/royal_fork_knife"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/notch_apple"
+							}
+						]
+					}
+				},
+				{
+					"when": [
+						"Royal Red Glazed Plate",
+						"Royal Glazed Red Plate",
+						"Red Glazed Royal Plate",
+						"Glazed Red Royal Plate"
+					],
+					"model": {
+						"type": "composite",
+						"models": [
+							{
+								"type": "model",
+								"model": "item/plated_food/red_glazed_plate"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/royal_fork_knife"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/notch_apple"
+							}
+						]
+					}
+				},
+				{
+					"when": [
+						"Royal Purple Glazed Plate",
+						"Royal Glazed Purple Plate",
+						"Purple Glazed Royal Plate",
+						"Glazed Purple Royal Plate"
+					],
+					"model": {
+						"type": "composite",
+						"models": [
+							{
+								"type": "model",
+								"model": "item/plated_food/purple_glazed_plate"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/royal_fork_knife"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/notch_apple"
+							}
+						]
+					}
+				},
+				{
+					"when": [
+						"Royal Pink Glazed Plate",
+						"Royal Glazed Pink Plate",
+						"Pink Glazed Royal Plate",
+						"Glazed Pink Royal Plate"
+					],
+					"model": {
+						"type": "composite",
+						"models": [
+							{
+								"type": "model",
+								"model": "item/plated_food/pink_glazed_plate"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/royal_fork_knife"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/notch_apple"
+							}
+						]
+					}
+				},
+				{
+					"when": [
+						"Royal Orange Glazed Plate",
+						"Royal Glazed Orange Plate",
+						"Orange Glazed Royal Plate",
+						"Glazed Orange Royal Plate"
+					],
+					"model": {
+						"type": "composite",
+						"models": [
+							{
+								"type": "model",
+								"model": "item/plated_food/orange_glazed_plate"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/royal_fork_knife"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/notch_apple"
+							}
+						]
+					}
+				},
+				{
+					"when": [
+						"Royal Magenta Glazed Plate",
+						"Royal Glazed Magenta Plate",
+						"Magenta Glazed Royal Plate",
+						"Glazed Magenta Royal Plate"
+					],
+					"model": {
+						"type": "composite",
+						"models": [
+							{
+								"type": "model",
+								"model": "item/plated_food/magenta_glazed_plate"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/royal_fork_knife"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/notch_apple"
+							}
+						]
+					}
+				},
+				{
+					"when": [
+						"Royal Lime Glazed Plate",
+						"Royal Glazed Lime Plate",
+						"Lime Glazed Royal Plate",
+						"Glazed Lime Royal Plate"
+					],
+					"model": {
+						"type": "composite",
+						"models": [
+							{
+								"type": "model",
+								"model": "item/plated_food/lime_glazed_plate"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/royal_fork_knife"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/notch_apple"
+							}
+						]
+					}
+				},
+				{
+					"when": [
+						"Royal Glazed Light Gray Plate",
+						"Glazed Light Gray Royal Plate",
+						"Royal Glazed Light Grey Plate",
+						"Glazed Light Grey Royal Plate",
+						"Royal Light Gray Glazed Plate",
+						"Light Gray Glazed Royal Plate",
+						"Royal Light Grey Glazed Plate",
+						"Light Grey Glazed Royal Plate"
+					],
+					"model": {
+						"type": "composite",
+						"models": [
+							{
+								"type": "model",
+								"model": "item/plated_food/light_gray_glazed_plate"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/royal_fork_knife"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/notch_apple"
+							}
+						]
+					}
+				},
+				{
+					"when": [
+						"Royal Light Blue Glazed Plate",
+						"Royal Glazed Light Blue Plate",
+						"Light Blue Glazed Royal Plate",
+						"Glazed Light Blue Royal Plate"
+					],
+					"model": {
+						"type": "composite",
+						"models": [
+							{
+								"type": "model",
+								"model": "item/plated_food/light_blue_glazed_plate"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/royal_fork_knife"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/notch_apple"
+							}
+						]
+					}
+				},
+				{
+					"when": [
+						"Royal Green Glazed Plate",
+						"Royal Glazed Green Plate",
+						"Green Glazed Royal Plate",
+						"Glazed Green Royal Plate"
+					],
+					"model": {
+						"type": "composite",
+						"models": [
+							{
+								"type": "model",
+								"model": "item/plated_food/green_glazed_plate"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/royal_fork_knife"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/notch_apple"
+							}
+						]
+					}
+				},
+				{
+					"when": [
+						"Royal Glazed Gray Plate",
+						"Glazed Gray Royal Plate",
+						"Royal Glazed Grey Plate",
+						"Glazed Grey Royal Plate",
+						"Royal Gray Glazed Plate",
+						"Gray Glazed Royal Plate",
+						"Royal Grey Glazed Plate",
+						"Grey Glazed Royal Plate"
+					],
+					"model": {
+						"type": "composite",
+						"models": [
+							{
+								"type": "model",
+								"model": "item/plated_food/gray_glazed_plate"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/royal_fork_knife"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/notch_apple"
+							}
+						]
+					}
+				},
+				{
+					"when": [
+						"Royal Cyan Glazed Plate",
+						"Royal Glazed Cyan Plate",
+						"Cyan Glazed Royal Plate",
+						"Glazed Cyan Royal Plate"
+					],
+					"model": {
+						"type": "composite",
+						"models": [
+							{
+								"type": "model",
+								"model": "item/plated_food/cyan_glazed_plate"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/royal_fork_knife"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/notch_apple"
+							}
+						]
+					}
+				},
+				{
+					"when": [
+						"Royal Brown Glazed Plate",
+						"Royal Glazed Brown Plate",
+						"Brown Glazed Royal Plate",
+						"Glazed Brown Royal Plate"
+					],
+					"model": {
+						"type": "composite",
+						"models": [
+							{
+								"type": "model",
+								"model": "item/plated_food/brown_glazed_plate"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/royal_fork_knife"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/notch_apple"
+							}
+						]
+					}
+				},
+				{
+					"when": [
+						"Royal Blue Glazed Plate",
+						"Royal Glazed Blue Plate",
+						"Blue Glazed Royal Plate",
+						"Glazed Blue Royal Plate"
+					],
+					"model": {
+						"type": "composite",
+						"models": [
+							{
+								"type": "model",
+								"model": "item/plated_food/blue_glazed_plate"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/royal_fork_knife"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/notch_apple"
+							}
+						]
+					}
+				},
+				{
+					"when": [
+						"Royal Black Glazed Plate",
+						"Royal Glazed Black Plate",
+						"Black Glazed Royal Plate",
+						"Glazed Black Royal Plate"
+					],
+					"model": {
+						"type": "composite",
+						"models": [
+							{
+								"type": "model",
+								"model": "item/plated_food/black_glazed_plate"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/royal_fork_knife"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/notch_apple"
+							}
+						]
+					}
+				},
+				{
+					"when": [
+						"Royal Glazed Plate",
+						"Royal White Glazed Plate",
+						"White Glazed Royal Plate",
+						"Glazed Royal Plate",
+						"Royal Glazed White Plate",
+						"Glazed White Royal Plate"
+					],
+					"model": {
+						"type": "composite",
+						"models": [
+							{
+								"type": "model",
+								"model": "item/plated_food/glazed_plate"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/royal_fork_knife"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/notch_apple"
+							}
+						]
+					}
+				},
+				{
+					"when": [
+						"Royal Yellow Plate",
+						"Yellow Royal Plate"
+					],
+					"model": {
+						"type": "composite",
+						"models": [
+							{
+								"type": "model",
+								"model": "item/plated_food/yellow_plate"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/royal_fork_knife"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/notch_apple"
+							}
+						]
+					}
+				},
+				{
+					"when": [
+						"Royal Red Plate",
+						"Red Royal Plate"
+					],
+					"model": {
+						"type": "composite",
+						"models": [
+							{
+								"type": "model",
+								"model": "item/plated_food/red_plate"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/royal_fork_knife"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/notch_apple"
+							}
+						]
+					}
+				},
+				{
+					"when": [
+						"Royal Purple Plate",
+						"Purple Royal Plate"
+					],
+					"model": {
+						"type": "composite",
+						"models": [
+							{
+								"type": "model",
+								"model": "item/plated_food/purple_plate"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/royal_fork_knife"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/notch_apple"
+							}
+						]
+					}
+				},
+				{
+					"when": [
+						"Royal Pink Plate",
+						"Pink Royal Plate"
+					],
+					"model": {
+						"type": "composite",
+						"models": [
+							{
+								"type": "model",
+								"model": "item/plated_food/pink_plate"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/royal_fork_knife"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/notch_apple"
+							}
+						]
+					}
+				},
+				{
+					"when": [
+						"Royal Orange Plate",
+						"Orange Royal Plate"
+					],
+					"model": {
+						"type": "composite",
+						"models": [
+							{
+								"type": "model",
+								"model": "item/plated_food/orange_plate"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/royal_fork_knife"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/notch_apple"
+							}
+						]
+					}
+				},
+				{
+					"when": [
+						"Royal Magenta Plate",
+						"Magenta Royal Plate"
+					],
+					"model": {
+						"type": "composite",
+						"models": [
+							{
+								"type": "model",
+								"model": "item/plated_food/magenta_plate"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/royal_fork_knife"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/notch_apple"
+							}
+						]
+					}
+				},
+				{
+					"when": [
+						"Royal Lime Plate",
+						"Lime Royal Plate"
+					],
+					"model": {
+						"type": "composite",
+						"models": [
+							{
+								"type": "model",
+								"model": "item/plated_food/lime_plate"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/royal_fork_knife"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/notch_apple"
+							}
+						]
+					}
+				},
+				{
+					"when": [
+						"Royal Light Grey Plate",
+						"Royal Light Gray Plate",
+						"Light Grey Royal Plate",
+						"Light Gray Royal Plate"
+					],
+					"model": {
+						"type": "composite",
+						"models": [
+							{
+								"type": "model",
+								"model": "item/plated_food/light_gray_plate"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/royal_fork_knife"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/notch_apple"
+							}
+						]
+					}
+				},
+				{
+					"when": [
+						"Royal Light Blue Plate",
+						"Light Blue Royal Plate"
+					],
+					"model": {
+						"type": "composite",
+						"models": [
+							{
+								"type": "model",
+								"model": "item/plated_food/light_blue_plate"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/royal_fork_knife"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/notch_apple"
+							}
+						]
+					}
+				},
+				{
+					"when": [
+						"Royal Green Plate",
+						"Green Royal Plate"
+					],
+					"model": {
+						"type": "composite",
+						"models": [
+							{
+								"type": "model",
+								"model": "item/plated_food/green_plate"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/royal_fork_knife"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/notch_apple"
+							}
+						]
+					}
+				},
+				{
+					"when": [
+						"Royal Gray Plate",
+						"Gray Royal Plate",
+						"Royal Grey Plate",
+						"Grey Royal Plate"
+					],
+					"model": {
+						"type": "composite",
+						"models": [
+							{
+								"type": "model",
+								"model": "item/plated_food/gray_plate"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/royal_fork_knife"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/notch_apple"
+							}
+						]
+					}
+				},
+				{
+					"when": [
+						"Royal Cyan Plate",
+						"Cyan Royal Plate"
+					],
+					"model": {
+						"type": "composite",
+						"models": [
+							{
+								"type": "model",
+								"model": "item/plated_food/cyan_plate"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/royal_fork_knife"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/notch_apple"
+							}
+						]
+					}
+				},
+				{
+					"when": [
+						"Royal Brown Plate",
+						"Brown Royal Plate"
+					],
+					"model": {
+						"type": "composite",
+						"models": [
+							{
+								"type": "model",
+								"model": "item/plated_food/brown_plate"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/royal_fork_knife"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/notch_apple"
+							}
+						]
+					}
+				},
+				{
+					"when": [
+						"Royal Blue Plate",
+						"Blue Royal Plate"
+					],
+					"model": {
+						"type": "composite",
+						"models": [
+							{
+								"type": "model",
+								"model": "item/plated_food/blue_plate"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/royal_fork_knife"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/notch_apple"
+							}
+						]
+					}
+				},
+				{
+					"when": [
+						"Royal Black Plate",
+						"Black Royal Plate"
+					],
+					"model": {
+						"type": "composite",
+						"models": [
+							{
+								"type": "model",
+								"model": "item/plated_food/black_plate"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/royal_fork_knife"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/notch_apple"
+							}
+						]
+					}
+				},
+				{
+					"when": [
+						"Royal Plate",
+						"Royal White Plate",
+						"White Royal Plate"
+					],
+					"model": {
+						"type": "composite",
+						"models": [
+							{
+								"type": "model",
+								"model": "item/plated_food/plate"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/royal_fork_knife"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/notch_apple"
+							}
+						]
+					}
+				},
+				{
+					"when": "Set Board",
+					"model": {
+						"type": "composite",
+						"models": [
+							{
+								"type": "model",
+								"model": "item/plated_food/board"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/knife"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/notch_apple"
+							}
+						]
+					}
+				},
+				{
+					"when": "Board",
+					"model": {
+						"type": "composite",
+						"models": [
+							{
+								"type": "model",
+								"model": "item/plated_food/board"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/notch_apple"
+							}
+						]
+					}
+				},
+				{
+					"when": [
+						"Yellow Glazed Plate",
+						"Glazed Yellow Plate"
+					],
+					"model": {
+						"type": "composite",
+						"models": [
+							{
+								"type": "model",
+								"model": "item/plated_food/yellow_glazed_plate"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/notch_apple"
+							}
+						]
+					}
+				},
+				{
+					"when": [
+						"Set Yellow Glazed Plate",
+						"Set Glazed Yellow Plate",
+						"Yellow Glazed Set Plate",
+						"Glazed Yellow Set Plate"
+					],
+					"model": {
+						"type": "composite",
+						"models": [
+							{
+								"type": "model",
+								"model": "item/plated_food/yellow_glazed_plate"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/fork_knife"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/notch_apple"
+							}
+						]
+					}
+				},
+				{
+					"when": [
+						"Red Glazed Plate",
+						"Glazed Red Plate"
+					],
+					"model": {
+						"type": "composite",
+						"models": [
+							{
+								"type": "model",
+								"model": "item/plated_food/red_glazed_plate"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/notch_apple"
+							}
+						]
+					}
+				},
+				{
+					"when": [
+						"Set Red Glazed Plate",
+						"Set Glazed Red Plate",
+						"Red Glazed Set Plate",
+						"Glazed Red Set Plate"
+					],
+					"model": {
+						"type": "composite",
+						"models": [
+							{
+								"type": "model",
+								"model": "item/plated_food/red_glazed_plate"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/fork_knife"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/notch_apple"
+							}
+						]
+					}
+				},
+				{
+					"when": [
+						"Purple Glazed Plate",
+						"Glazed Purple Plate"
+					],
+					"model": {
+						"type": "composite",
+						"models": [
+							{
+								"type": "model",
+								"model": "item/plated_food/purple_glazed_plate"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/notch_apple"
+							}
+						]
+					}
+				},
+				{
+					"when": [
+						"Set Purple Glazed Plate",
+						"Set Glazed Purple Plate",
+						"Purple Glazed Set Plate",
+						"Glazed Purple Set Plate"
+					],
+					"model": {
+						"type": "composite",
+						"models": [
+							{
+								"type": "model",
+								"model": "item/plated_food/purple_glazed_plate"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/fork_knife"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/notch_apple"
+							}
+						]
+					}
+				},
+				{
+					"when": [
+						"Pink Glazed Plate",
+						"Glazed Pink Plate"
+					],
+					"model": {
+						"type": "composite",
+						"models": [
+							{
+								"type": "model",
+								"model": "item/plated_food/pink_glazed_plate"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/notch_apple"
+							}
+						]
+					}
+				},
+				{
+					"when": [
+						"Set Pink Glazed Plate",
+						"Set Glazed Pink Plate",
+						"Pink Glazed Set Plate",
+						"Glazed Pink Set Plate"
+					],
+					"model": {
+						"type": "composite",
+						"models": [
+							{
+								"type": "model",
+								"model": "item/plated_food/pink_glazed_plate"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/fork_knife"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/notch_apple"
+							}
+						]
+					}
+				},
+				{
+					"when": [
+						"Orange Glazed Plate",
+						"Glazed Orange Plate"
+					],
+					"model": {
+						"type": "composite",
+						"models": [
+							{
+								"type": "model",
+								"model": "item/plated_food/orange_glazed_plate"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/notch_apple"
+							}
+						]
+					}
+				},
+				{
+					"when": [
+						"Set Orange Glazed Plate",
+						"Set Glazed Orange Plate",
+						"Orange Glazed Set Plate",
+						"Glazed Orange Set Plate"
+					],
+					"model": {
+						"type": "composite",
+						"models": [
+							{
+								"type": "model",
+								"model": "item/plated_food/orange_glazed_plate"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/fork_knife"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/notch_apple"
+							}
+						]
+					}
+				},
+				{
+					"when": [
+						"Magenta Glazed Plate",
+						"Glazed Magenta Plate"
+					],
+					"model": {
+						"type": "composite",
+						"models": [
+							{
+								"type": "model",
+								"model": "item/plated_food/magenta_glazed_plate"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/notch_apple"
+							}
+						]
+					}
+				},
+				{
+					"when": [
+						"Set Magenta Glazed Plate",
+						"Set Glazed Magenta Plate",
+						"Magenta Glazed Set Plate",
+						"Glazed Magenta Set Plate"
+					],
+					"model": {
+						"type": "composite",
+						"models": [
+							{
+								"type": "model",
+								"model": "item/plated_food/magenta_glazed_plate"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/fork_knife"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/notch_apple"
+							}
+						]
+					}
+				},
+				{
+					"when": [
+						"Lime Glazed Plate",
+						"Glazed Lime Plate"
+					],
+					"model": {
+						"type": "composite",
+						"models": [
+							{
+								"type": "model",
+								"model": "item/plated_food/lime_glazed_plate"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/notch_apple"
+							}
+						]
+					}
+				},
+				{
+					"when": [
+						"Set Lime Glazed Plate",
+						"Set Glazed Lime Plate",
+						"Lime Glazed Set Plate",
+						"Glazed Lime Set Plate"
+					],
+					"model": {
+						"type": "composite",
+						"models": [
+							{
+								"type": "model",
+								"model": "item/plated_food/lime_glazed_plate"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/fork_knife"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/notch_apple"
+							}
+						]
+					}
+				},
+				{
+					"when": [
+						"Glazed Light Grey Plate",
+						"Glazed Light Gray Plate",
+						"Light Grey Glazed Plate",
+						"Light Gray Glazed Plate"
+					],
+					"model": {
+						"type": "composite",
+						"models": [
+							{
+								"type": "model",
+								"model": "item/plated_food/light_gray_glazed_plate"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/notch_apple"
+							}
+						]
+					}
+				},
+				{
+					"when": [
+						"Set Glazed Light Gray Plate",
+						"Glazed Light Gray Set Plate",
+						"Set Glazed Light Grey Plate",
+						"Glazed Light Grey Set Plate",
+						"Set Light Gray Glazed Plate",
+						"Light Gray Glazed Set Plate",
+						"Set Light Grey Glazed Plate",
+						"Light Grey Glazed Set Plate"
+					],
+					"model": {
+						"type": "composite",
+						"models": [
+							{
+								"type": "model",
+								"model": "item/plated_food/light_gray_glazed_plate"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/fork_knife"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/notch_apple"
+							}
+						]
+					}
+				},
+				{
+					"when": [
+						"Light Blue Glazed Plate",
+						"Glazed Light Blue Plate"
+					],
+					"model": {
+						"type": "composite",
+						"models": [
+							{
+								"type": "model",
+								"model": "item/plated_food/light_blue_glazed_plate"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/notch_apple"
+							}
+						]
+					}
+				},
+				{
+					"when": [
+						"Set Light Blue Glazed Plate",
+						"Set Glazed Light Blue Plate",
+						"Light Blue Glazed Set Plate",
+						"Glazed Light Blue Set Plate"
+					],
+					"model": {
+						"type": "composite",
+						"models": [
+							{
+								"type": "model",
+								"model": "item/plated_food/light_blue_glazed_plate"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/fork_knife"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/notch_apple"
+							}
+						]
+					}
+				},
+				{
+					"when": [
+						"Green Glazed Plate",
+						"Glazed Green Plate"
+					],
+					"model": {
+						"type": "composite",
+						"models": [
+							{
+								"type": "model",
+								"model": "item/plated_food/green_glazed_plate"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/notch_apple"
+							}
+						]
+					}
+				},
+				{
+					"when": [
+						"Set Green Glazed Plate",
+						"Set Glazed Green Plate",
+						"Green Glazed Set Plate",
+						"Glazed Green Set Plate"
+					],
+					"model": {
+						"type": "composite",
+						"models": [
+							{
+								"type": "model",
+								"model": "item/plated_food/green_glazed_plate"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/fork_knife"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/notch_apple"
+							}
+						]
+					}
+				},
+				{
+					"when": [
+						"Glazed Grey Plate",
+						"Glazed Gray Plate",
+						"Grey Glazed Plate",
+						"Gray Glazed Plate"
+					],
+					"model": {
+						"type": "composite",
+						"models": [
+							{
+								"type": "model",
+								"model": "item/plated_food/gray_glazed_plate"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/notch_apple"
+							}
+						]
+					}
+				},
+				{
+					"when": [
+						"Set Glazed Gray Plate",
+						"Glazed Gray Set Plate",
+						"Set Glazed Grey Plate",
+						"Glazed Grey Set Plate",
+						"Set Gray Glazed Plate",
+						"Gray Glazed Set Plate",
+						"Set Grey Glazed Plate",
+						"Grey Glazed Set Plate"
+					],
+					"model": {
+						"type": "composite",
+						"models": [
+							{
+								"type": "model",
+								"model": "item/plated_food/gray_glazed_plate"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/fork_knife"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/notch_apple"
+							}
+						]
+					}
+				},
+				{
+					"when": [
+						"Cyan Glazed Plate",
+						"Glazed Cyan Plate"
+					],
+					"model": {
+						"type": "composite",
+						"models": [
+							{
+								"type": "model",
+								"model": "item/plated_food/cyan_glazed_plate"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/notch_apple"
+							}
+						]
+					}
+				},
+				{
+					"when": [
+						"Set Cyan Glazed Plate",
+						"Set Glazed Cyan Plate",
+						"Cyan Glazed Set Plate",
+						"Glazed Cyan Set Plate"
+					],
+					"model": {
+						"type": "composite",
+						"models": [
+							{
+								"type": "model",
+								"model": "item/plated_food/cyan_glazed_plate"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/fork_knife"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/notch_apple"
+							}
+						]
+					}
+				},
+				{
+					"when": [
+						"Brown Glazed Plate",
+						"Glazed Brown Plate"
+					],
+					"model": {
+						"type": "composite",
+						"models": [
+							{
+								"type": "model",
+								"model": "item/plated_food/brown_glazed_plate"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/notch_apple"
+							}
+						]
+					}
+				},
+				{
+					"when": [
+						"Set Brown Glazed Plate",
+						"Set Glazed Brown Plate",
+						"Brown Glazed Set Plate",
+						"Glazed Brown Set Plate"
+					],
+					"model": {
+						"type": "composite",
+						"models": [
+							{
+								"type": "model",
+								"model": "item/plated_food/brown_glazed_plate"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/fork_knife"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/notch_apple"
+							}
+						]
+					}
+				},
+				{
+					"when": [
+						"Blue Glazed Plate",
+						"Glazed Blue Plate"
+					],
+					"model": {
+						"type": "composite",
+						"models": [
+							{
+								"type": "model",
+								"model": "item/plated_food/blue_glazed_plate"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/notch_apple"
+							}
+						]
+					}
+				},
+				{
+					"when": [
+						"Set Blue Glazed Plate",
+						"Set Glazed Blue Plate",
+						"Blue Glazed Set Plate",
+						"Glazed Blue Set Plate"
+					],
+					"model": {
+						"type": "composite",
+						"models": [
+							{
+								"type": "model",
+								"model": "item/plated_food/blue_glazed_plate"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/fork_knife"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/notch_apple"
+							}
+						]
+					}
+				},
+				{
+					"when": [
+						"Black Glazed Plate",
+						"Glazed Black Plate"
+					],
+					"model": {
+						"type": "composite",
+						"models": [
+							{
+								"type": "model",
+								"model": "item/plated_food/black_glazed_plate"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/notch_apple"
+							}
+						]
+					}
+				},
+				{
+					"when": [
+						"Set Black Glazed Plate",
+						"Set Glazed Black Plate",
+						"Black Glazed Set Plate",
+						"Glazed Black Set Plate"
+					],
+					"model": {
+						"type": "composite",
+						"models": [
+							{
+								"type": "model",
+								"model": "item/plated_food/black_glazed_plate"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/fork_knife"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/notch_apple"
+							}
+						]
+					}
+				},
+				{
+					"when": [
+						"Glazed Plate",
+						"White Glazed Plate",
+						"Glazed White Plate"
+					],
+					"model": {
+						"type": "composite",
+						"models": [
+							{
+								"type": "model",
+								"model": "item/plated_food/glazed_plate"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/notch_apple"
+							}
+						]
+					}
+				},
+				{
+					"when": [
+						"Set Glazed Plate",
+						"Set White Glazed Plate",
+						"White Glazed Set Plate",
+						"Glazed Set Plate",
+						"Set Glazed White Plate",
+						"Glazed White Set Plate"
+					],
+					"model": {
+						"type": "composite",
+						"models": [
+							{
+								"type": "model",
+								"model": "item/plated_food/glazed_plate"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/fork_knife"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/notch_apple"
+							}
+						]
+					}
+				},
+				{
+					"when": "Yellow Plate",
+					"model": {
+						"type": "composite",
+						"models": [
+							{
+								"type": "model",
+								"model": "item/plated_food/yellow_plate"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/notch_apple"
+							}
+						]
+					}
+				},
+				{
+					"when": [
+						"Set Yellow Plate",
+						"Yellow Set Plate"
+					],
+					"model": {
+						"type": "composite",
+						"models": [
+							{
+								"type": "model",
+								"model": "item/plated_food/yellow_plate"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/fork_knife"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/notch_apple"
+							}
+						]
+					}
+				},
+				{
+					"when": "Red Plate",
+					"model": {
+						"type": "composite",
+						"models": [
+							{
+								"type": "model",
+								"model": "item/plated_food/red_plate"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/notch_apple"
+							}
+						]
+					}
+				},
+				{
+					"when": [
+						"Set Red Plate",
+						"Red Set Plate"
+					],
+					"model": {
+						"type": "composite",
+						"models": [
+							{
+								"type": "model",
+								"model": "item/plated_food/red_plate"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/fork_knife"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/notch_apple"
+							}
+						]
+					}
+				},
+				{
+					"when": "Purple Plate",
+					"model": {
+						"type": "composite",
+						"models": [
+							{
+								"type": "model",
+								"model": "item/plated_food/purple_plate"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/notch_apple"
+							}
+						]
+					}
+				},
+				{
+					"when": [
+						"Set Purple Plate",
+						"Purple Set Plate"
+					],
+					"model": {
+						"type": "composite",
+						"models": [
+							{
+								"type": "model",
+								"model": "item/plated_food/purple_plate"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/fork_knife"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/notch_apple"
+							}
+						]
+					}
+				},
+				{
+					"when": "Pink Plate",
+					"model": {
+						"type": "composite",
+						"models": [
+							{
+								"type": "model",
+								"model": "item/plated_food/pink_plate"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/notch_apple"
+							}
+						]
+					}
+				},
+				{
+					"when": [
+						"Set Pink Plate",
+						"Pink Set Plate"
+					],
+					"model": {
+						"type": "composite",
+						"models": [
+							{
+								"type": "model",
+								"model": "item/plated_food/pink_plate"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/fork_knife"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/notch_apple"
+							}
+						]
+					}
+				},
+				{
+					"when": "Orange Plate",
+					"model": {
+						"type": "composite",
+						"models": [
+							{
+								"type": "model",
+								"model": "item/plated_food/orange_plate"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/notch_apple"
+							}
+						]
+					}
+				},
+				{
+					"when": [
+						"Set Orange Plate",
+						"Orange Set Plate"
+					],
+					"model": {
+						"type": "composite",
+						"models": [
+							{
+								"type": "model",
+								"model": "item/plated_food/orange_plate"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/fork_knife"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/notch_apple"
+							}
+						]
+					}
+				},
+				{
+					"when": "Magenta Plate",
+					"model": {
+						"type": "composite",
+						"models": [
+							{
+								"type": "model",
+								"model": "item/plated_food/magenta_plate"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/notch_apple"
+							}
+						]
+					}
+				},
+				{
+					"when": [
+						"Set Magenta Plate",
+						"Magenta Set Plate"
+					],
+					"model": {
+						"type": "composite",
+						"models": [
+							{
+								"type": "model",
+								"model": "item/plated_food/magenta_plate"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/fork_knife"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/notch_apple"
+							}
+						]
+					}
+				},
+				{
+					"when": "Lime Plate",
+					"model": {
+						"type": "composite",
+						"models": [
+							{
+								"type": "model",
+								"model": "item/plated_food/lime_plate"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/notch_apple"
+							}
+						]
+					}
+				},
+				{
+					"when": [
+						"Set Lime Plate",
+						"Lime Set Plate"
+					],
+					"model": {
+						"type": "composite",
+						"models": [
+							{
+								"type": "model",
+								"model": "item/plated_food/lime_plate"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/fork_knife"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/notch_apple"
+							}
+						]
+					}
+				},
+				{
+					"when": [
+						"Light Grey Plate",
+						"Light Gray Plate"
+					],
+					"model": {
+						"type": "composite",
+						"models": [
+							{
+								"type": "model",
+								"model": "item/plated_food/light_gray_plate"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/notch_apple"
+							}
+						]
+					}
+				},
+				{
+					"when": [
+						"Set Light Grey Plate",
+						"Set Light Gray Plate",
+						"Light Grey Set Plate",
+						"Light Gray Set Plate"
+					],
+					"model": {
+						"type": "composite",
+						"models": [
+							{
+								"type": "model",
+								"model": "item/plated_food/light_gray_plate"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/fork_knife"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/notch_apple"
+							}
+						]
+					}
+				},
+				{
+					"when": "Light Blue Plate",
+					"model": {
+						"type": "composite",
+						"models": [
+							{
+								"type": "model",
+								"model": "item/plated_food/light_blue_plate"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/notch_apple"
+							}
+						]
+					}
+				},
+				{
+					"when": [
+						"Set Light Blue Plate",
+						"Light Blue Set Plate"
+					],
+					"model": {
+						"type": "composite",
+						"models": [
+							{
+								"type": "model",
+								"model": "item/plated_food/light_blue_plate"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/fork_knife"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/notch_apple"
+							}
+						]
+					}
+				},
+				{
+					"when": "Green Plate",
+					"model": {
+						"type": "composite",
+						"models": [
+							{
+								"type": "model",
+								"model": "item/plated_food/green_plate"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/notch_apple"
+							}
+						]
+					}
+				},
+				{
+					"when": [
+						"Set Green Plate",
+						"Green Set Plate"
+					],
+					"model": {
+						"type": "composite",
+						"models": [
+							{
+								"type": "model",
+								"model": "item/plated_food/green_plate"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/fork_knife"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/notch_apple"
+							}
+						]
+					}
+				},
+				{
+					"when": [
+						"Grey Plate",
+						"Gray Plate"
+					],
+					"model": {
+						"type": "composite",
+						"models": [
+							{
+								"type": "model",
+								"model": "item/plated_food/gray_plate"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/notch_apple"
+							}
+						]
+					}
+				},
+				{
+					"when": [
+						"Set Gray Plate",
+						"Gray Set Plate",
+						"Set Grey Plate",
+						"Grey Set Plate"
+					],
+					"model": {
+						"type": "composite",
+						"models": [
+							{
+								"type": "model",
+								"model": "item/plated_food/gray_plate"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/fork_knife"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/notch_apple"
+							}
+						]
+					}
+				},
+				{
+					"when": "Cyan Plate",
+					"model": {
+						"type": "composite",
+						"models": [
+							{
+								"type": "model",
+								"model": "item/plated_food/cyan_plate"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/notch_apple"
+							}
+						]
+					}
+				},
+				{
+					"when": [
+						"Set Cyan Plate",
+						"Cyan Set Plate"
+					],
+					"model": {
+						"type": "composite",
+						"models": [
+							{
+								"type": "model",
+								"model": "item/plated_food/cyan_plate"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/fork_knife"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/notch_apple"
+							}
+						]
+					}
+				},
+				{
+					"when": "Brown Plate",
+					"model": {
+						"type": "composite",
+						"models": [
+							{
+								"type": "model",
+								"model": "item/plated_food/brown_plate"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/notch_apple"
+							}
+						]
+					}
+				},
+				{
+					"when": [
+						"Set Brown Plate",
+						"Brown Set Plate"
+					],
+					"model": {
+						"type": "composite",
+						"models": [
+							{
+								"type": "model",
+								"model": "item/plated_food/brown_plate"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/fork_knife"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/notch_apple"
+							}
+						]
+					}
+				},
+				{
+					"when": "Blue Plate",
+					"model": {
+						"type": "composite",
+						"models": [
+							{
+								"type": "model",
+								"model": "item/plated_food/blue_plate"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/notch_apple"
+							}
+						]
+					}
+				},
+				{
+					"when": [
+						"Set Blue Plate",
+						"Blue Set Plate"
+					],
+					"model": {
+						"type": "composite",
+						"models": [
+							{
+								"type": "model",
+								"model": "item/plated_food/blue_plate"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/fork_knife"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/notch_apple"
+							}
+						]
+					}
+				},
+				{
+					"when": "Black Plate",
+					"model": {
+						"type": "composite",
+						"models": [
+							{
+								"type": "model",
+								"model": "item/plated_food/black_plate"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/notch_apple"
+							}
+						]
+					}
+				},
+				{
+					"when": [
+						"Set Black Plate",
+						"Black Set Plate"
+					],
+					"model": {
+						"type": "composite",
+						"models": [
+							{
+								"type": "model",
+								"model": "item/plated_food/black_plate"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/fork_knife"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/notch_apple"
+							}
+						]
+					}
+				},
+				{
+					"when": [
+						"Plate",
+						"White Plate"
+					],
+					"model": {
+						"type": "composite",
+						"models": [
+							{
+								"type": "model",
+								"model": "item/plated_food/plate"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/notch_apple"
+							}
+						]
+					}
+				},
+				{
+					"when": [
+						"Set Plate",
+						"Set White Plate",
+						"White Set Plate"
+					],
+					"model": {
+						"type": "composite",
+						"models": [
+							{
+								"type": "model",
+								"model": "item/plated_food/plate"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/fork_knife"
+							},
+							{
+								"type": "model",
+								"model": "item/plated_food/notch_apple"
+							}
+						]
+					}
+				}
+			],
+			"fallback": {
+				"type": "model",
+				"model": "item/golden_apple"
+			}
+		},
+		"on_false": {
+			"type": "model",
+			"model": "item/golden_apple"
+		}
+	}
+}
