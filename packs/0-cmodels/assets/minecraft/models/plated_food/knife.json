@@ -1,0 +1,7 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+	"parent": "item/plated_food/cleaver",
+	"textures": {
+		"layer0": "item/plated_food/knife"
+	}
+}

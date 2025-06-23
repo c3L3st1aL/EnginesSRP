@@ -1,0 +1,14 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+	"parent": "item/plated_food/cleaver",
+	"textures": {
+		"layer0": "item/plated_food/knife"
+	},
+	"display": {
+		"fixed": {
+			"rotation": [0, 180, 75],
+			"translation": [1.5, 4, -1],
+			"scale": [2.01, 2.01, 2.01]
+		}
+	}
+}

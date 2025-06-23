@@ -1,0 +1,7 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+	"parent": "item/plated_food/melon_slice",
+	"textures": {
+		"particle": "item/plated_food/glistering_melon_slice"
+	}
+}

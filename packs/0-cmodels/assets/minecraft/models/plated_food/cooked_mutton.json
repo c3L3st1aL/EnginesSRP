@@ -1,0 +1,7 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+	"parent": "item/plated_food/raw_mutton",
+	"textures": {
+		"particle": "item/plated_food/cooked_mutton"
+	}
+}

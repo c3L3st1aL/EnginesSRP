@@ -1,0 +1,7 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+	"parent": "item/plated_food/apple",
+	"textures": {
+		"particle": "item/plated_food/notch_apple"
+	}
+}

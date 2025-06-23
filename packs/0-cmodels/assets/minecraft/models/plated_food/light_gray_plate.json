@@ -1,0 +1,7 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+	"parent": "item/plated_food/plate",
+	"textures": {
+		"layer0": "item/plated_food/light_gray_plate"
+	}
+}
