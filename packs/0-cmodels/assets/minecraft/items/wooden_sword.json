@@ -11,7 +11,7 @@
                 "threshold": 99,
                 "model": {
                     "type": "model",
-                    "model": "custom:item/enginessports/tennis_rack"
+                    "model": "custom:item/egn/tennis_rack"
                 }
             }
         ]

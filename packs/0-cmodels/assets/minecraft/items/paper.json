@@ -52,7 +52,7 @@
             {"threshold": 99,
                 "model": {
                     "type": "model",
-                    "model": "minecraft:items/tennis_rack"
+                    "model": "custom:item/enginessports/tennis_rack"
                 }
             }
         ]
