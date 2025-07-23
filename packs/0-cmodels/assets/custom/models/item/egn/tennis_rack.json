@@ -1,4 +1,6 @@
-{"parent":"minecraft:item/generated","textures":{"layer0":"custom:item/enginessports/tennis_rack"},
+{"parent":"minecraft:item/generated","textures":{
+    "layer0":"custom:item/enginessports/tennis_rack",
+    "particle": "custom:item/enginessports/tennis_rack"},
 	"elements": [
 		{
 			"name": "tennis_rack_0",
