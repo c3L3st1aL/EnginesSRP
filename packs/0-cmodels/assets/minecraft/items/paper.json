@@ -11,48 +11,48 @@
                 "threshold": 101,
                 "model": {
                     "type": "model",
-                    "model": "minecraft:item/clue_dagger"
+                    "model": "minecraft:items/clue_dagger"
                 }
             },
             {
                 "threshold": 102,
                 "model": {
                     "type": "model",
-                    "model": "minecraft:item/clue_wrench"
+                    "model": "minecraft:items/clue_wrench"
                 }
             },
             {
                 "threshold": 103,
                 "model": {
                     "type": "model",
-                    "model": "minecraft:item/clue_pipe"
+                    "model": "minecraft:items/clue_pipe"
                 }
             },
             {
                 "threshold": 104,
                 "model": {
                     "type": "model",
-                    "model": "minecraft:item/clue_pistol"
+                    "model": "minecraft:items/clue_pistol"
                 }
             },
             {
                 "threshold": 105,
                 "model": {
                     "type": "model",
-                    "model": "minecraft:item/clue_rope"
+                    "model": "minecraft:items/clue_rope"
                 }
             },
             {
                 "threshold": 106,
                 "model": {
                     "type": "model",
-                    "model": "minecraft:item/clue_candlestick"
+                    "model": "minecraft:items/clue_candlestick"
                 }
             },
             {"threshold": 99,
                 "model": {
                     "type": "model",
-                    "model": "minecraft:item/tennis_rack"
+                    "model": "minecraft:items/tennis_rack"
                 }
             }
         ]
