@@ -1,7 +1,0 @@
-{
-	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
-	"parent": "item/plated_food/beetroot_soup",
-	"textures": {
-		"soup": "item/plated_food/suspicious_stew"
-	}
-}
