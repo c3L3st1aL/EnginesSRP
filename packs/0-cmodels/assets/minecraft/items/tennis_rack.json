@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "minecraft:textures/item/tennis_rack"
+    "layer0": "custom:item/tennis_rack"
   }
 }
