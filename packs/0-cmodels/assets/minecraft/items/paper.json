@@ -48,6 +48,12 @@
                     "type": "model",
                     "model": "minecraft:item/clue_candlestick"
                 }
+            },
+            {"threshold": 99,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:item/tennis_rack"
+                }
             }
         ]
     }
