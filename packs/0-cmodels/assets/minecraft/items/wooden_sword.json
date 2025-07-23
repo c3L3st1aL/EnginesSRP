@@ -11,7 +11,7 @@
                 "threshold": 99,
                 "model": {
                     "type": "model",
-                    "model": "minecraft:item/tennis_rack"
+                    "model": "minecraft:items/tennis_rack"
                 }
             }
         ]
